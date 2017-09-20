@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy import linalg as nl
-N = 200;
+N = 100;
 
 Hz = np.zeros((N+1, ));
 IC = lambda x: np.cos(np.pi*x/10)
@@ -28,9 +28,9 @@ abc = (cc*dt - dx)/(cc*dt + dx);
 
 for t in range(tsteps):
     #update Hz field
-    Hz_next = np.zeros((N+1,))
     deriv = Ey[1:]-np.roll(Ey,1)[1:]
     deriv = Ey[0]+deriv;
+    Ey[-1] = 0;
     Hz_next = Hz + (dt/dx)*(Ey - np.roll(Ey, 1))
     # for i in range(0, N):
     #     Hz_next[i] = Hz[i] + (dt/dx)*(Ey[i+1] - (Ey[i]));
@@ -39,8 +39,7 @@ for t in range(tsteps):
     Hz = Hz_next;
 
     #update Ey field
-    Ey0 = Ey[-2]
-    Ey_next = np.zeros((N+1,));
+    Hz[0] = 0;
     Ey_next = Ey + (dt/dx)*(np.roll(Hz,-1) - Hz)
 
     # for i in range(1, N+1):

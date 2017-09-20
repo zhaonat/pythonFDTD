@@ -14,19 +14,19 @@ c = 1; # we are in units of nanometers;
 lambda_0 = 800;
 lambda_up = 1200;
 lambda_low = 400;
-dx = lambda_0/80; dy = dx;
+dx = lambda_0/160; dy = dx;
 dt = (1/2)**.5*dx/c;
 xrange = [-400, 400];
 yrange = [-400, 400];
 xstart = np.array([-400,-400]); xend = np.array([400,400]);
-source =  np.array([-200, 0])-xstart; source = [int(i/dx) for i in source];
+source =  np.array([200, 0])-xstart; source = [int(i/dx) for i in source];
 probloc = np.array([200,0])-xstart; probloc = [int(i/dx) for i in probloc];
 
 Nx = int((xrange[1]-xrange[0])/dx);
 Ny = int((yrange[1]-yrange[0])/dy);
 ## create epsilon
 eps = np.ones((Nx, Ny));
-eps[50:150, 50:150] = 4;
+#eps[50:150, 50:150] = 4;
 
 
 ##initialize fields (consider a sparse initializiation)
@@ -47,20 +47,21 @@ for t in range(tsteps):
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
     ## current source needs to be scaled
-    J = np.sin(2*np.pi*t/30)*(dt);
-    # J = currSource((t+0.5)*dt, lambda_up, lambda_low, lambda_0, c, dx);
+    J = np.sin(2*np.pi*t/20)*(dt);
+    #J = currSource((t+0.5)*dt, lambda_up, lambda_low, lambda_0, c, dx);
     #update E field components
         # TEz mode...only transverse x and y E field
     Hx[-1,:] = 0;
     Hy[:,-1] = 0;
     deriv_y = (np.roll(Hx,-1, axis=1)-Hx)/dy;
     deriv_x = (np.roll(Hy, -1, axis = 0)-Hy)/dx;
-    Ez = Ez + np.multiply((dt/eps), (deriv_x - \
+    Dz = eps*Ez;
+    Dz= Dz +((dt)* (deriv_x - \
                                   (deriv_y)));
+    Ez = Dz/eps;
     ## enforce Dirichlet
-    [dex, dey] = np.gradient(Ez, dx, dy);
-
-    Ez[source[0],source[1]]-=J/eps[source[0], source[1]]; #location of the source            # np.roll(Hx,-1)-Hx;
+    if( t < 20):
+        Ez[source[0],source[1]] -= J/eps[source[0], source[1]]; #location of the source            # np.roll(Hx,-1)-Hx;
     ##vectorize this code
     Ez[:,0] = 0;
     #deriv_y = dey/dy;
