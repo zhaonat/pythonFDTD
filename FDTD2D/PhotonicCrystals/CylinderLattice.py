@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from FDTD2D.DielectricGenerator2D import GMRStructure as GMR
+from FDTD2D.DielectricGenerator2D import PhotonicCrystalGrid as pcg
 from FDTD2D.Simulators import runTE
 
 ## fundamental parameter specificatoin (all 1)
@@ -31,8 +31,8 @@ structureLength = 50;
 structureWidth = 50;
 structureSpacing = 0; numCells = 20; diel = 12;
 vacuumSpace = int((Nx-10)/2);
-eps = GMR.GMRWaveguide(Nx, Ny,structureLength,structureWidth,\
-                       structureSpacing,numCells, vacuumSpace,diel);
+xcells = 10; ycells = 10; cellSize = np.array([40,40])
+eps = pcg.PhotonicGrid(xcells, ycells, cellSize, diel);
 plt.imshow(eps)
 plt.show()
 [Nx, Ny] = eps.shape

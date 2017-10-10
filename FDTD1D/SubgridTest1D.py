@@ -52,10 +52,11 @@ for t in range(tsteps): #odd steps for main grid, even for subgrid
         Ey[50] += np.exp(-(t - 30.) * (t - 30.) / 100);
 
         ## Once we do the update, we need to analyze the border points between fine and coarse
-        # in 1D, every subgrid point is surrounded by two coarse points..
-        for i in range(Nf-1):
-            ey[i] = (Ey[24+i]+Ey[25+i])/2
-            hz[i] = (Hz[24+i]+Hz[25+i])/2;
+        # in 1D, the boundary is 1D
+
+        #1/3 and 2/3 are linear interpolation coefficients for refinement factof of 2
+        ey[0] = Ey[-1]*(1/3)+ey[1]*(2/3); #these are the field values after the coarse grid has been time stepped dt, but the fine grid has dt/2
+        hz[0] = Hz[-1]*(1/3)+hz[1]*(2/3);
 
 
         ##apparently, there's a time interpolation step?

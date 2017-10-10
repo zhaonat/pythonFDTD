@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def GMRWaveguide(Nx, Ny, structureLength, structureWidth, structureSpacing, numCells,diel):
+def GMRWaveguide(Nx, Ny, structureLength, structureWidth,\
+                 structureSpacing, numCells, vacuumSpace, diel):
     unitCellSpacing = structureLength + structureSpacing;
 
     structure = diel * np.ones((structureLength, structureWidth))
@@ -14,7 +15,7 @@ def GMRWaveguide(Nx, Ny, structureLength, structureWidth, structureSpacing, numC
     ## concatenate vacuum on both sides
     print(GMR.shape)
     [Nx, ny] = GMR.shape;
-    vacuum = np.ones((50, ny));
+    vacuum = np.ones((vacuumSpace, ny));
     print(vacuum.shape)
     simDomain = np.concatenate((vacuum, GMR, vacuum), axis=0)
     return simDomain

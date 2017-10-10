@@ -1,6 +1,8 @@
 ## step 1, how do we visualize a nonuniform grid
 import numpy as np;
 import matplotlib.pyplot as plt
+from scipy.interpolate import interp1d
+
 def interp(r1, r2, x):
     ans = r1[1] + (x-r1[0])*((r2[1]-r1[1])/(r2[0]-r1[0]));
     return ans;
@@ -37,69 +39,83 @@ tsteps = 2000;
 Hz_storage = list(); Hz_storage.append(Hz);
 Ey_storage = list(); Ey_storage.append(Ey);
 
-## we need to put in 3 sets of initial values...
 hz_storage = list();
 ey_storage = list();
-for i in range(9):
+for i in range(10):
     hz_storage.append(hz);
     ey_storage.append(ey);
 Ey_prev = Ey;
+
+#storage fields will contain fields for both coarse and fine grid
+# at QUARTER STEPS
 for t in range(8,tsteps): #odd steps for main grid, even for subgrid
     # update Hz field on coarse grid
     print(t)
+    Ey[0] = 0;
     Hz_next = Hz + (dt_coarse / dx_coarse) * (Ey - np.roll(Ey, 1))
     Hz = Hz_next;
     Hz_storage.append(Hz);
 
-    # update Ey field on coarse grid
+    # update Ey field on coarse grid t--> t+dt
     Hz[0] = 0; #dirichlet
     Ey_next = Ey + (dt_coarse / dx_coarse) * (np.roll(Hz, -1) - Hz)
     Ey = Ey_next;
 
     # source injection
-    #Ey[50] += np.exp(-(t - 30.) * (t - 30.) / 100);
+    Ey[50] += np.exp(-(t - 30.) * (t - 30.) / 100);
     Ey_storage.append(Ey);
+
     ## Once we do the update, we need to analyze the border points between fine and coarse
     # now we transfer information to the fine grid
-    hz[0] = (2/3)*(Hz[-1])+(1/3)*(hz[0]) #- fine grid values t-1
-    ey[0] = (2/3)*(Ey[-1])+(1/3)*(ey[0]) #- fine grid interpolation at t -.5
-    #hz[0] = hz_interp;
-    #ey[0] = ey_interp;
-    ##subgrid fields at t and t+0.5
-    ##apparently, there's a time interpolation step?
-    # es_tminushalf = (ey_storage[t-8][0]+ey_storage[t-4][0]+ey[0])/3;
-    # hb_tminusquarter = (hz_storage[t-8][0]+hz_storage[t-4][0]+hz[0])/3;
 
-    # ## use Yee update to get a different value of hb_tminusquarter
-    # hb_tminusquarter2 = hz_storage[t-4][0] - (Ey[1]-(es_tminushalf));
-    # hb_tminusquarter = hb_tminusquarter*0.65+0.35*hb_tminusquarter2
+    hz[0] = (2/3)*(Hz[-1])+(1/3)*(hz[1]) #- fine grid values t+ dt updated from t
+    ey[0] = (2/3)*(Ey[-1])+(1/3)*(ey[1]) #- fine grid interpolation at t + dt/2 updated from t-dt/2
 
-    # update ey field on the fine grid to time step t, which is the same time step as Ez on the coarse grid
-    #hz[0] = hb_tminusquarter;
-    hz[0] = 0
+    ##time interpolate subgrid fields at t+dt/2 for hz and t+dt/4 for ey
+    tsamples = [-4,0,8]; y = [ey_storage[t-4][0],ey_storage[t][0],ey_storage[t-8][0]];
+    f = interp1d(tsamples,y, kind='quadratic')
+
+    ## apply the interpolation in time to the border points
+    es_tminushalf = f(-2);
+    hb_tminusquarter =f(-2);
+
+    # ## use Yee update to get a different value of the fine grids at t+dt/2 and t+dt/4
+    hb_tminusquarter2 = hz_storage[t-4][0] - (Ey[1]-(es_tminushalf));
+    #create weighted average
+    hb_tminusquarter = hb_tminusquarter*0.65+0.35*hb_tminusquarter2
+
+    ey[0] = es_tminushalf;
+    hz[0] = hb_tminusquarter;
+
+    ##### YEE UPDATES NO INTERPOLATION
+    # update the fine grid values for the electric field
+    hz[0] = 0; #ey
     ey_next = ey + (dt_fine / dx_fine) * (np.roll(hz, -1) - hz)
     ey = ey_next;
-    ey[50] += np.exp(-(t - 30.) * (t - 30.) / 100);
-    #ey[0] = es_tminushalf;
+    ey_storage.append(ey) #ey at t
 
-    #update hz field to t+0.5
+    #update hz field to h_int to t+0.25;
     ey[-1] = 0;  # dirichlet
     hz_next = hz + (dt_fine / dx_fine) * (ey - np.roll(ey, 1))
     hz = hz_next;
+    hz_storage.append(hz) #at t+0.25;
 
-    ## Now we the ghost values at the time level of t+1/2, which we do another interpolation for
-    ey_tplushalf = ey[0] +0.5*(Ey[0]-Ey_prev[0])
+    ## NOW THAT WE HAVE RUN THE UPDATE on the fine grid,
+    ## we reverse interpolate back onto the coarse grid
+    ## update all H coarse files at t+0.25;
+    Hz[-1] = hz[0]*(1/3)+(2/3)*Hz[-2];
 
     ## now we do another quartertime step to get e to t+1, the time step of HZ
-    e_tplushalf = ey +(np.roll(hz,-1)-hz);
+    ey = ey +(np.roll(hz,-1)-hz);
+    hz = hz + (dt_fine / dx_fine) * (ey - np.roll(ey, 1))
 
+    ## update coarse E fields and H fields via interpolation again
+    # Hz[-1] = hz[0]*(1/3)+(2/3)*Hz[-1];
+    # Ey[-1] = ey[0]*(1/3)+(2/3)*Ey[-2];
 
-    ## update coarse E fields parallel and adjacent to the fine grid using newly updated H coarse fields
+    ## why do we need the H fields at the quarter time steps???
 
-
-    ## store this field as the 'previous' field when we enter the next time step
     Ey_prev = Ey;
-
     ## at the end, everything has been stepped forward one coarse time step
     if(t%10 == 0):
         plt.plot(xcoarse, Hz)

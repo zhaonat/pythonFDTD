@@ -1,3 +1,5 @@
+import numpy as np
+
 ## first, we need to be able to visualize a non-uniform grid
 import numpy as np;
 import matplotlib.pyplot as plt
@@ -13,8 +15,8 @@ lambda_up = 200;
 lambda_low = 50;
 dx = 800/200; dy = dx; c =1;
 dt = (1/2)**.5*dx/c;
-xrange = [-400, 400];
-yrange = [-300, 300];
+xrange = [-600, 600];
+yrange = [-600, 600];
 rstart = np.array([-400, -300]); rend = np.array([400, 300]);
 source = np.array([0,0]) - rstart; source = [int(i / dx) for i in source];
 source = [100, 75]
@@ -96,33 +98,13 @@ gi2x = np.matlib.repmat(gi2.T,Ny,1); gi2x = np.rot90(gi2x)
 gj2x = np.matlib.repmat(gj2,Nx,1);
 gij2 = np.multiply(gi2x, gj2x);
 
-# visualize the pml coefficient matrices
-plt.figure()
-plt.subplot(221)
-plt.imshow(fj3)
-plt.subplot(222)
-plt.imshow(fj2)
-plt.subplot(223)
-plt.imshow(fi1)
-plt.show()
+###################INSERT THE TFSF######################################
+########################################################################
+#select a  single line of nodes
+TFSF_x = 100;
 
-plt.figure()
-plt.subplot(221)
-plt.imshow(fi3)
-plt.subplot(222)
-plt.imshow(fi2)
-plt.subplot(223)
-plt.imshow(fj1)
-plt.show()
 
-plt.figure()
-plt.subplot(121)
-plt.imshow(gij3)
-plt.subplot(122)
-plt.imshow(gij2)
-plt.show()
-
-#### TEST THE PML #######################################################
+#### TEST THE CODE #######################################################
 #########################################################################
 
 def currSource(t, lambda_up, lambda_low, lambda_0, c, dx):
@@ -134,7 +116,7 @@ def currSource(t, lambda_up, lambda_low, lambda_0, c, dx):
 
 ## create epsilon
 eps = np.ones((Nx, Ny));
-#eps[90:120,:] = 4;
+eps[150:200,:] = 4;
 ##initialize fields (consider a sparse initializiation)
 Hx = np.zeros((Nx, Ny));
 Hy = np.zeros((Nx, Ny));
@@ -152,11 +134,14 @@ Idz = 0; #integral collection for curl
 Icey = 0; Icex = 0;
 
 tsteps = 1000;
-source = [150, 75]
+source = [TFSF_x, 25]
+time = np.arange(0,tsteps+1);
+J = np.sin(2*np.pi*time/40);
+J = np.exp(-(time-30)**2/100)
 for t in range(tsteps):
     print('t= '+str(t))
 
-    J = np.sin(2*np.pi*t/30);
+
     #J = currSource((t+0.5)*dt, lambda_up, lambda_low, lambda_0, c, dx);
 
     ## now work on Dz
@@ -169,10 +154,11 @@ for t in range(tsteps):
     Dz = eps * Ez;
     Idz += Dz;
     Dz = gij3 * Dz + gij2 * dt * Chz;
-    Dz[source[0], source[1]] -= J;  # location of the source
+    Dz[source[0], source[1]] -= J[t];  # location of the source
 
     ## finally update Ez
     Ez = Dz/eps;  ## this is important for the next update of the curl # equations
+    Ez[TFSF_x, :] = J[t];
 
     ## update H fields
     #Ez[:,0] = 0;
@@ -183,6 +169,9 @@ for t in range(tsteps):
     Hx = fij3*Hx + (dt)*fij2*Cex + fij1*Icex;
     Hy = fij3*Hy + (dt)*fij2*Cey + fij1*Icey;
 
+    #update the Hx source for the TFSF
+    delay = dy/2+dt/2
+    #Hy[TFSF_x, :] += Ez[TFSF_x, :]
 
     ## records field in probloc
     storedFields.append(Ez[probloc[0], probloc[1]]);
@@ -191,9 +180,9 @@ for t in range(tsteps):
     if(t%15 == 0):
         print(np.max(Ez))
         plt.subplot(221)
-        imgplot = plt.imshow(np.real(Hy))
+        imgplot = plt.imshow(Ez)
         imgplot.set_cmap('jet')
-        plt.clim(-0.1, 0.1)
+        plt.clim(-1, 1)
         plt.subplot(222)
         plt.imshow(np.real(Idz))
         plt.clim(-0.04, 0.04)
