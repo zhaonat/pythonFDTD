@@ -6,11 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np;
 
 def curl(Vx, Vy, Vz, roll =1):
-    #dxVy - dyVx
     zcomp = (np.roll(Vy,roll, axis=2) - Vy) - (np.roll(Vx,roll, axis = 1) - Vx);
-    #dzVx - dxVz
     ycomp = (np.roll(Vx,roll, axis=0) - Vx) - (np.roll(Vz,roll, axis=2) - Vz);
-    #dxVy - dyVx
     xcomp = (np.roll(Vz,roll, axis=1) - Vz) - (np.roll(Vy,roll,axis=0) - Vy);
     return [xcomp, ycomp, zcomp];
 
@@ -65,20 +62,20 @@ x,y,z = np.mgrid[0:Nx, 0:Ny, 0:Nz];
 
 dL = [dx, dy, dz];
 print('dt: '+str(dt)+' dx: '+str(dx))
-tsteps = 300;
+tsteps = 200;
 for t in range(tsteps):
     print('t= '+str(t))
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
     ## current source needs to be scaled
-    J = 1*np.sin(2*np.pi*t/30)
+    J = 1*np.sin(2*np.pi*t/60)
 
 
     #t =t part of the time step, get the curls from t-1/2 for the H field
-    for i in range(Nz):
-        index = i-1;
-        if(index <0):
-            index = Nz-1;
+    for i in range(0,Nz):
+        index = i+1;
+        if(index >Nz-1):
+            index = 0;
         Chx =  ((dt/dy)*(np.roll(Hz[i,:,:], 1, axis = 0) - Hz[i,:,:]) - (dt/dz)*(Hy[index, :,:]-Hy[i,:,:]));
         Chy = -((dt/dx)*(np.roll(Hz[i,:,:], 1, axis = 1) - Hz[i,:,:]) - (dt/dz)*(Hx[index, :,:]-Hx[i,:,:]));
         Chz = ((dt/dx)*(np.roll(Hy[i,:,:], 1, axis = 1) - Hy[i,:,:]) - (dt/dy)*(np.roll(Hx[i,:,:], 1, axis = 0)-Hx[i,:,:]));
@@ -89,32 +86,32 @@ for t in range(tsteps):
         Ex[i,:,:] -= Chx;
         Ey[i,:,:] -=  Chy;
         Ez[i,:,:] -=  Chz;
-    Ez[jx, jy, jz] -=J;
+    Ey[jx, jy, jz] -=J;
 
     ## update H fields
-    # technically, we are t = t+1/2 here
-    for i in range(Nz):
-        index = i+1;
-        if(index >=Nz):
-            index = 0;
+    # # technically, we are t = t+1/2 here
+    for i in range(0,Nz):
+        index = i-1;
+        if(index <1):
+            index = Nz-1;
         CEx =  ((dt/dy)*(Ez[i,:,:] - np.roll(Ez[i,:,:], -1, axis = 0)) - (dt/dz)*(Ey[i,:,:]- Ey[index,:,:]));
-        CEy = -((dt/dx)*(Ez[i,:,:] - np.roll(Ez[i,:,:], -1, axis = 1)) - (dt/dz)*(Ex[i,:,:]- Ey[index,:,:]));
+        CEy = -((dt/dx)*(Ez[i,:,:] - np.roll(Ez[i,:,:], -1, axis = 1)) - (dt/dz)*(Ex[i,:,:]- Ex[index,:,:]));
         CEz = ((dt/dx)*(Ey[i,:,:] - np.roll(Ey[i,:,:], -1, axis = 1)) - (dt/dy)*(Ex[i,:,:]- np.roll(Ex[i,:,:], -1, axis = 0)));
 
         Hx[i,:,:] += CEx;
         Hy[i,:,:] += CEy;
         Hz[i,:,:] += CEz;
 
-
     # Hx +=  ((dt/dy)*(Ez - np.roll(Ez, -1, axis = 1) ) - (dt/dz)*(Ey- np.roll(Ey, -1, axis = 0)));
     # Hy +=  -((dt/dx)*(Ez - np.roll(Ez, -1, axis = 2) ) - (dt/dz)*(Ex- np.roll(Ex, -1, axis = 0)));
     # Hz +=  ((dt/dx)*(Ey - np.roll(Ey, -1, axis = 2) ) - (dt/dy)*(Ex- np.roll(Ex, -1, axis = 1)));
-    #
+
 
     #insert point source
     if(t%2 == 0):
-        imgplot = plt.imshow(Ez[:,:,jz], cmap = 'jet')
-        plt.clim(-0.01, 0.01)
+        imgplot = plt.imshow(np.log(np.abs(Ez[:,:,jz])), cmap = 'jet')
+        #plt.plot(Ez[:,jy, jz])
+        #plt.clim(-0.02, 0.02)
         #plt.plot(Ex[:,:,jz])
         #imgplot = mlab.contour3d(x,y,z,Hz)
         plt.pause(0.001)

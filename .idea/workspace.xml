@@ -7,28 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="101829fc-cfb7-4af0-954c-6a9b9ddd0520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC_DrudeGraphene.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD1D/Subgrid/1DSubgridPrimarySubgrid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD1D/TFSF1D.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/PhotonicCrystalGrid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD2D/PhotonicCrystals/CylinderLattice.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD2D/Sources/PlaneWave.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD2D/Sources/TFSF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD2D/Sources/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/CalcSBCCoef.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD1D/Subgrid/1DSubgridding.py" afterPath="$PROJECT_DIR$/FDTD1D/Subgrid/1DSubgridding.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD1D/SubgridTest1D.py" afterPath="$PROJECT_DIR$/FDTD1D/SubgridTest1D.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/GMRStructure.py" afterPath="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/GMRStructure.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD2D/GuidedModeResonance/GMR2D.py" afterPath="$PROJECT_DIR$/FDTD2D/GuidedModeResonance/GMR2D.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD2D/PML/UPML_coefs.py" afterPath="$PROJECT_DIR$/FDTD2D/PML/UPML_coefs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD2D/PML/UPML_test.py" afterPath="$PROJECT_DIR$/FDTD2D/PML/UPML_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD2D/Simulators/runTE.py" afterPath="$PROJECT_DIR$/FDTD2D/Simulators/runTE.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/createCircle.py" afterPath="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/createShapes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" afterPath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +33,7 @@
     <SUITE FILE_PATH="coverage/FDTD$TFSF.coverage" NAME="TFSF Coverage Results" MODIFIED="1506152422086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/Sources" />
     <SUITE FILE_PATH="coverage/FDTD$SubgridTest1D.coverage" NAME="SubgridTest1D Coverage Results" MODIFIED="1506284614586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D" />
     <SUITE FILE_PATH="coverage/FDTD$FDTD2Dex.coverage" NAME="FDTD2Dex Coverage Results" MODIFIED="1505709892008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D" />
-    <SUITE FILE_PATH="coverage/FDTD$FDTD3Dex.coverage" NAME="FDTD3Dex Coverage Results" MODIFIED="1507613829084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D" />
+    <SUITE FILE_PATH="coverage/FDTD$FDTD3Dex.coverage" NAME="FDTD3Dex Coverage Results" MODIFIED="1507688295231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D" />
     <SUITE FILE_PATH="coverage/FDTD$TE.coverage" NAME="TE Coverage Results" MODIFIED="1505710284382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/Simulators" />
     <SUITE FILE_PATH="coverage/FDTD$CylinderLattice.coverage" NAME="CylinderLattice Coverage Results" MODIFIED="1506153499230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/PhotonicCrystals" />
     <SUITE FILE_PATH="coverage/FDTD$GMRStructure.coverage" NAME="GMRStructure Coverage Results" MODIFIED="1505496938315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2DFDTD/2DDielectricGenerator" />
@@ -62,11 +44,11 @@
     <SUITE FILE_PATH="coverage/FDTD$1DSlabTransmission.coverage" NAME="1DSlabTransmission Coverage Results" MODIFIED="1499062611319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1DFDTD" />
     <SUITE FILE_PATH="coverage/FDTD$1DFDTD.coverage" NAME="1DFDTD Coverage Results" MODIFIED="1505695525920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D" />
     <SUITE FILE_PATH="coverage/FDTD$1DTestSBC_DrudeGraphene.coverage" NAME="1DTestSBC_DrudeGraphene Coverage Results" MODIFIED="1507607493720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D/GrapheneSBC" />
-    <SUITE FILE_PATH="coverage/FDTD$GrapheneSheetTest3D.coverage" NAME="GrapheneSheetTest3D Coverage Results" MODIFIED="1507610593962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
+    <SUITE FILE_PATH="coverage/FDTD$GrapheneSheetTest3D.coverage" NAME="GrapheneSheetTest3D Coverage Results" MODIFIED="1508021446521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
     <SUITE FILE_PATH="coverage/FDTD$TFSF1D.coverage" NAME="TFSF1D Coverage Results" MODIFIED="1506144261657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D" />
     <SUITE FILE_PATH="coverage/FDTD$runTE.coverage" NAME="runTE Coverage Results" MODIFIED="1506152501866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/Simulators" />
     <SUITE FILE_PATH="coverage/FDTD$GMR2D__1_.coverage" NAME="GMR2D (1) Coverage Results" MODIFIED="1505500015274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/GuidedModeResonance" />
-    <SUITE FILE_PATH="coverage/FDTD$FDTD3D_partialvectorizatoin.coverage" NAME="FDTD3D_partialvectorizatoin Coverage Results" MODIFIED="1507618671975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
+    <SUITE FILE_PATH="coverage/FDTD$FDTD3D_partialvectorizatoin.coverage" NAME="FDTD3D_partialvectorizatoin Coverage Results" MODIFIED="1507697464597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
     <SUITE FILE_PATH="coverage/FDTD$UPML_test.coverage" NAME="UPML_test Coverage Results" MODIFIED="1506148620343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD2D/PML" />
     <SUITE FILE_PATH="coverage/FDTD$1DFDTD_unvectorized.coverage" NAME="1DFDTD_unvectorized Coverage Results" MODIFIED="1507597838634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D" />
     <SUITE FILE_PATH="coverage/FDTD$1DSubgridding.coverage" NAME="1DSubgridding Coverage Results" MODIFIED="1506299535632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FDTD1D/Subgrid" />
@@ -91,7 +73,7 @@
       <file leaf-file-name="1DFDTD.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="594">
               <caret line="20" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
               <folding />
             </state>
@@ -101,8 +83,8 @@
       <file leaf-file-name="1DFDTD_unvectorized.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
-              <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+            <state relative-caret-position="2112">
+              <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -111,21 +93,9 @@
       <file leaf-file-name="1DTestSBC.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1195">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="2838">
+              <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GrapheneSheetTest3D.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,32 +110,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FDTD3D_partialvectorizatoin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="runTE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="858">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FDTD3Dex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/FDTD3Dex.py">
+      <file leaf-file-name="FDTD3D_partialvectorizatoin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+            <state relative-caret-position="2310">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="87" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrapheneSheetTest3D.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +158,7 @@
       <find>mHx0</find>
       <find>source</find>
       <find>print</find>
+      <find>Ez_top</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,8 +214,9 @@
         <option value="$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py" />
         <option value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
         <option value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC_DrudeGraphene.py" />
-        <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
+        <option value="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" />
         <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
+        <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
       </list>
     </option>
   </component>
@@ -255,7 +229,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-16" />
     <option name="y" value="-16" />
-    <option name="width" value="3872" />
+    <option name="width" value="3844" />
     <option name="height" value="2092" />
   </component>
   <component name="ProjectView">
@@ -328,7 +302,7 @@
     <property name="nodejs_interpreter_path" value="D:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files (x86)\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Reed Group/BatteryMachineLearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -340,7 +314,7 @@
       <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\2DFDTD\Subgridding" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FDTD3D_partialvectorizatoin">
+  <component name="RunManager" selected="Python.GrapheneSheetTest3D">
     <configuration default="false" name="1DTestSBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -654,10 +628,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FDTD3D_partialvectorizatoin" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FDTD3Dex" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1DTestSBC" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GrapheneSheetTest3D" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GrapheneSheetTest3D" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FDTD3D_partialvectorizatoin" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FDTD3Dex" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1DTestSBC" />
         <item index="4" class="java.lang.String" itemvalue="Python.1DTestSBC_DrudeGraphene" />
       </list>
     </recent_temporary>
@@ -685,19 +659,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <frame x="-16" y="-16" width="3844" height="2092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26363635" sideWeight="0.49665552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27047414" sideWeight="0.49665552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323815" sideWeight="0.5016211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33054626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49837887" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33054626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49837887" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1264706" sideWeight="0.5033445" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1264706" sideWeight="0.5033445" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -976,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="594">
           <caret line="20" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
           <folding />
         </state>
@@ -986,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3828">
           <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
-          <folding>
-            <element signature="e#49#68#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,14 +974,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="66" column="15" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+        <state relative-caret-position="2112">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1019,31 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD3D/FDTD3Dex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,21 +1000,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
+    <entry file="file://$PROJECT_DIR$/FDTD3D/FDTD3Dex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="117" column="13" lean-forward="true" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="2310">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="87" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

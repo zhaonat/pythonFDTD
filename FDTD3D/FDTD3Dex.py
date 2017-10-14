@@ -71,7 +71,7 @@ for t in range(tsteps):
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
     ## current source needs to be scaled
-    J = 1*np.sin(2*np.pi*t/30)
+    J = 1*np.sin(2*np.pi*t/300)
     #J = 0.5;
     ## we have six different components to update
     # 0 = dz, 1 = dy, 2 = dx
