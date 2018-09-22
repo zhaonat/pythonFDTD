@@ -21,7 +21,7 @@ yrange = [-400, 400];
 xstart = np.array([-400,-400]); xend = np.array([400,400]);
 source =  np.array([200, 0])-xstart; source = [int(i/dx) for i in source];
 probloc = np.array([200,0])-xstart; probloc = [int(i/dx) for i in probloc];
-
+source = [80,80]
 Nx = int((xrange[1]-xrange[0])/dx);
 Ny = int((yrange[1]-yrange[0])/dy);
 ## create epsilon
@@ -35,7 +35,7 @@ Hy = np.zeros((Nx, Ny));
 Ez = np.zeros((Nx, Ny));
 #spatial steps
 #time steps
-tsteps = 1000;
+tsteps = 10000;
 
 ## courant constant
 plt.ion()
@@ -47,7 +47,7 @@ for t in range(tsteps):
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
     ## current source needs to be scaled
-    J = np.sin(2*np.pi*t/20)*(dt);
+    J = np.sin(2*np.pi*t/40)*(dt)#*np.exp(-(t-20)**2/50);
     #J = currSource((t+0.5)*dt, lambda_up, lambda_low, lambda_0, c, dx);
     #update E field components
         # TEz mode...only transverse x and y E field
@@ -60,8 +60,8 @@ for t in range(tsteps):
                                   (deriv_y)));
     Ez = Dz/eps;
     ## enforce Dirichlet
-    if( t < 20):
-        Ez[source[0],source[1]] -= J/eps[source[0], source[1]]; #location of the source            # np.roll(Hx,-1)-Hx;
+    #if( t < 20):
+    Ez[source[0],source[1]] -= J/eps[source[0], source[1]]; #location of the source            # np.roll(Hx,-1)-Hx;
     ##vectorize this code
     Ez[:,0] = 0;
     #deriv_y = dey/dy;
@@ -77,7 +77,7 @@ for t in range(tsteps):
 
     #insert point source
     if(t%10 == 0):
-        imgplot = plt.imshow(Hy)
+        imgplot = plt.imshow(Ez)
         imgplot.set_cmap('jet')
         plt.pause(0.001)
         plt.clf()

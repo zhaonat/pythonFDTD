@@ -1,5 +1,4 @@
 import numpy as np
-from mayavi import mlab;
 ## testing of the 3D FDTD equations
 
 import matplotlib.pyplot as plt
@@ -42,7 +41,7 @@ Nz = int((yrange[1]-yrange[0])/dy);
 
 ## create epsilon
 eps = np.ones((Nx, Ny, Nz));
-eps[50:150, 50:150, 50:150] = 4;
+#eps[50:150, 50:150, 50:150] = 4;
 
 
 ##initialize fields (consider a sparse initializiation)
@@ -54,7 +53,7 @@ Ey = np.zeros((Nx, Ny, Nz));
 Hz = np.zeros((Nx, Ny, Nz));
 #spatial steps
 #time steps
-tsteps = 300;
+tsteps = 500;
 
 ## courant constant
 plt.ion()
@@ -71,7 +70,7 @@ for t in range(tsteps):
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
     ## current source needs to be scaled
-    J = 1*np.sin(2*np.pi*t/300)
+    J = 1*np.sin(2*np.pi*t/30)
     #J = 0.5;
     ## we have six different components to update
     # 0 = dz, 1 = dy, 2 = dx

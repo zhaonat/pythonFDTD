@@ -57,8 +57,7 @@ for t in range(tsteps):
     deriv_x = -(np.roll(Ey, 1, axis = 0) - Ey) / dx;
     Hz = Hz - np.multiply((dt / eps), (deriv_x - \
                                        (deriv_y)));
-    ## enforce Dirichlet
-    [dex, dey] = np.gradient(Hz, dx, dy);
+
 
     Hz[source[0], source[1]]-= J / eps[source[0], source[1]]; #location of the source            # np.roll(Hx,-1)-Hx;
     ##vectorize this code

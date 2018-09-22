@@ -4,16 +4,226 @@
     <bookmark url="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py" description="    deriv = Ey[1:]-np.roll(Ey,1)[1:]&#10;    deriv = E..." line="30" />
     <bookmark url="file://$PROJECT_DIR$/FDTD2D/Simulators/TM.py" description="    # Hx[-1,:] = 0;&#10;    # Hy[:,-1] = 0;" line="53" />
     <bookmark url="file://$PROJECT_DIR$/FDTD2D/Subgridding/2DSubgridTest.py" description="    insertIndices = np.arange(1,Nxcoarse);&#10;    ez1..." line="68" />
+    <bookmark url="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" line="58" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="101829fc-cfb7-4af0-954c-6a9b9ddd0520" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" afterPath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Graphene1D.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD2D/Graphene/Graphene2DSheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD2D/Graphene/GrapheneSBCTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD2D/Graphene/TE_unvectorized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD2D/Graphene/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDTD3D/DerivativeAnalysis/DerivativeAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD2D/FDTD2Dex.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD2D/FDTD2Dex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD2D/Simulators/TE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD2D/Simulators/TE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD2D/Simulators/TM.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD2D/Simulators/TM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,80 +274,78 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1543254174">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open" />
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="FDTD" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="1DFDTD.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1DFDTD_unvectorized.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2112">
-              <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1DTestSBC.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2838">
-              <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalcSBCCoef.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/CalcSBCCoef.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runTE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FDTD3D_partialvectorizatoin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="87" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GrapheneSheetTest3D.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="1584">
+              <caret line="75" column="27" selection-start-line="75" selection-end-line="76" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FDTD2D/Graphene/Graphene2DSheet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="68" column="18" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FDTD2D/Graphene/GrapheneSBCTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2244">
+              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FDTD3D/DerivativeAnalysis/DerivativeAnalysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/TE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -157,8 +365,8 @@
       <find>Ey0</find>
       <find>mHx0</find>
       <find>source</find>
-      <find>print</find>
       <find>Ez_top</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,12 +375,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubgridding.m" />
-        <option value="$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubGridPeriodic.m" />
-        <option value="$PROJECT_DIR$/2DFDTD/2DDielectricGenerator/createCircle.py" />
-        <option value="$PROJECT_DIR$/1DFDTD/1DSlabTransmission.py" />
-        <option value="$PROJECT_DIR$/FDTDModules/Run1DFDTD.py" />
-        <option value="$PROJECT_DIR$/1DFDTD/SlabTransmission.py" />
         <option value="$PROJECT_DIR$/2DFDTD/FDTD2Dex.py" />
         <option value="$PROJECT_DIR$/2DFDTD/NonuniformGridTEst.py" />
         <option value="$PROJECT_DIR$/1DFDTD/SubgridTest1D.py" />
@@ -193,7 +395,6 @@
         <option value="$PROJECT_DIR$/FDTD2D/PML/sfactor.py" />
         <option value="$PROJECT_DIR$/FDTD2D/PML/SCPML.py" />
         <option value="$PROJECT_DIR$/FDTD1D/UPML.py" />
-        <option value="$PROJECT_DIR$/FDTD2D/Simulators/TE.py" />
         <option value="$PROJECT_DIR$/FDTD2D/PML/UPML.py" />
         <option value="$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/GMRStructure.py" />
         <option value="$PROJECT_DIR$/FDTD1D/TFSF1D.py" />
@@ -212,11 +413,19 @@
         <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest.py" />
         <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/CalcSBCCoef.py" />
         <option value="$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py" />
-        <option value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
         <option value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC_DrudeGraphene.py" />
         <option value="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" />
         <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Graphene2DSheet.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Simulators/TM.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/FDTD2Dex.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Graphene/TE_unvectorized.py" />
         <option value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
+        <option value="$PROJECT_DIR$/FDTD3D/DerivativeAnalysis/DerivativeAnalysis.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Graphene/Graphene2DSheet.py" />
+        <option value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Graphene/GrapheneSBCTest.py" />
+        <option value="$PROJECT_DIR$/FDTD2D/Simulators/TE.py" />
       </list>
     </option>
   </component>
@@ -226,75 +435,29 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3844" />
-    <option name="height" value="2092" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="858" />
+    <option name="y" value="4" />
+    <option name="width" value="1709" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD3D" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDTD3D" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GrapheneSimulation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="pythonFDTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonFDTD" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,108 +466,30 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files (x86)\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\pythonFDTD\FDTD3D" />
+      <recent name="D:\Documents\pythonFDTD\FDTD2D\Graphene" />
       <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\FDTD1D" />
       <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\FDTD2D" />
       <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\FDTD2D\PML" />
-      <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\2DFDTD\Simulators" />
-      <recent name="D:\Nathan\Documents\StanfordYearOne\Fan Group\FDTD\2DFDTD\Subgridding" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GrapheneSheetTest3D">
-    <configuration default="false" name="1DTestSBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GrapheneSheetTest3D" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="1DTestSBC_DrudeGraphene" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC_DrudeGraphene.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FDTD3D_partialvectorizatoin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FDTD3Dex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD3D" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD3D/FDTD3Dex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TE">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,37 +547,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="FDTD" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -529,16 +583,159 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="1DTestSBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FDTD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhaon\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Graphene2DSheet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhaon\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD2D/Graphene" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD2D/Graphene/Graphene2DSheet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GrapheneSBCTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhaon\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD2D/Graphene" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD2D/Graphene/GrapheneSBCTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TE" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhaon\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD2D/Simulators" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD2D/Simulators/TE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runTE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\zhaon\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FDTD2D/Simulators" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FDTD2D/Simulators/runTE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="FDTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -547,97 +744,74 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="FDTD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="FDTD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="FDTD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FDTD" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.1DTestSBC" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GrapheneSheetTest3D" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1DTestSBC_DrudeGraphene" />
-      <item index="3" class="java.lang.String" itemvalue="Python.FDTD3D_partialvectorizatoin" />
-      <item index="4" class="java.lang.String" itemvalue="Python.FDTD3Dex" />
+    <list>
+      <item itemvalue="Python.Graphene2DSheet" />
+      <item itemvalue="Python.1DTestSBC" />
+      <item itemvalue="Python.GrapheneSBCTest" />
+      <item itemvalue="Python.runTE" />
+      <item itemvalue="Python.TE" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GrapheneSheetTest3D" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FDTD3D_partialvectorizatoin" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FDTD3Dex" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1DTestSBC" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1DTestSBC_DrudeGraphene" />
+      <list>
+        <item itemvalue="Python.TE" />
+        <item itemvalue="Python.runTE" />
+        <item itemvalue="Python.GrapheneSBCTest" />
+        <item itemvalue="Python.Graphene2DSheet" />
+        <item itemvalue="Python.1DTestSBC" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -659,47 +833,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3844" height="2092" extended-state="0" />
-    <editor active="true" />
+    <frame x="858" y="4" width="1709" height="1043" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27047414" sideWeight="0.49665552" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323815" sideWeight="0.5016211" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33054626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49837887" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1264706" sideWeight="0.5033445" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.20347098" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033445" weight="0.1264706" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837887" weight="0.33076924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329972" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016211" side_tool="true" weight="0.3323815" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323815" sideWeight="0.5016211" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3310811" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.49837887" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26376653" sideWeight="0.49665552" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1264706" sideWeight="0.5033445" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.12837838" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033445" weight="0.1264706" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837887" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329972" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5016211" side_tool="true" weight="0.3323815" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998884" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Data View" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,78 +883,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/FDTD2Dex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/createShapes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubgridding.m" />
-    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/FDTD2Dex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/createShapes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubgridding.m" />
-    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/FDTD2Dex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FDTD_SubgriddingIntro/1D/OneDSubgridding.m" />
     <entry file="file://$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubGridPeriodic.m" />
     <entry file="file://$PROJECT_DIR$/../FDTD_SubgriddingIntro/2D/TwoDSubgridding.m" />
     <entry file="file://$PROJECT_DIR$/1DFDTD/1DSlabTransmission.py" />
@@ -787,79 +891,53 @@
     <entry file="file://$PROJECT_DIR$/FDTD3D/Curl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/Subgridding/NonuniformGridTEst.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../StanfordYearTwo/NBADataAnalysis/ExcelProcessing.py" />
+    <entry file="file://D:/../StanfordYearTwo/NBADataAnalysis/ExcelProcessing.py" />
     <entry file="file://$PROJECT_DIR$/Interpolation/InterpolationTesting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="15" />
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/3DSubgridTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/PML/sfactor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/PML/SCPML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD1D/UPML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/FDTD2Dex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/TM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding />
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/GMRStructure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD1D/SlabTransmission.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -873,115 +951,85 @@
     <entry file="file://$PROJECT_DIR$/FDTD2D/Sources/PlaneWave.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
-          <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/TE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/PML/UPML_coefs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/PML/UPML_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="46" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <caret line="46" column="25" selection-end-line="210" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/Sources/TFSF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
-          <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+          <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/GuidedModeResonance/GMR2D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1287">
-          <caret line="42" column="55" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <caret line="42" column="55" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/PhotonicCrystalGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="25" selection-end-column="12" />
+          <caret line="15" selection-start-line="15" selection-start-column="1" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/PhotonicCrystals/CylinderLattice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
-          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/Subgridding/2DSubgridTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1551">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD1D/Subgrid/1DSubgridPrimarySubgrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD2D/DielectricGenerator2D/createShapes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
-          <folding />
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD1D/Subgrid/1DSubgridding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3828">
-          <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../Anaconda3/lib/site-packages/matplotlib/backend_bases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="2461" column="32" lean-forward="true" selection-start-line="2461" selection-start-column="32" selection-end-line="2461" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/../../Anaconda3/lib/site-packages/matplotlib/backend_bases.py" />
     <entry file="file://$PROJECT_DIR$/FDTD1D/SubgridTest1D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-          <folding />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
@@ -994,50 +1042,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/CalcSBCCoef.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/FDTD3Dex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="226">
+          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/FDTD3D_partialvectorizatoin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="87" selection-end-column="26" />
-          <folding />
+        <state>
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#0#18#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
+    <entry file="file://$PROJECT_DIR$/FDTD2D/FDTD2Dex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="51" column="31" lean-forward="true" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/TM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="76" selection-start-line="76" selection-end-line="80" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Graphene/TE_unvectorized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="49" column="32" lean-forward="true" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/1DFDTD_unvectorized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/UPML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FDTD3D/GrapheneSimulation/GrapheneSheetTest3D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="121">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_23.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_32.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_47.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_50.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/Movies/Fields_184.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/runTE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD1D/GrapheneSBC/1DTestSBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="75" column="27" selection-start-line="75" selection-end-line="76" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Graphene/Graphene2DSheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="68" column="18" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Graphene/GrapheneSBCTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD3D/DerivativeAnalysis/DerivativeAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDTD2D/Simulators/TE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
         </state>
       </provider>
     </entry>

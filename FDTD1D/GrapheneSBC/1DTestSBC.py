@@ -1,6 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy import linalg as nl
+import os
+directory = 'D:\\Documents\\pythonFDTD\\FDTD1D\\GrapheneSBC\\Movies\\'
+
+try:
+    os.stat(directory)
+except:
+    os.mkdir(directory)
+
 N = 100;
 
 Hz = np.zeros((N+1, ));
@@ -23,14 +31,14 @@ fieldAmplitudes = list();
 plt.figure;
 abc = (cc*dt/2 - dx)/(cc*dt/2 + dx);
 sheet_loc= 50;
-source_loc =30;
+source_loc =70;
 tau = 0;
 
 
 ## COEFFICIENTS FOR THE SHEET UPDATE
 timeAlphaB = 1;
 
-sigma_0 = 100;
+sigma_0 = 1;
 denom = (dx * sigma_0) + dt/timeAlphaB;
 c1 = (dt) / (dx * sigma_0 + dt/timeAlphaB);
 c2 = (dt) / (dx * sigma_0 + dt/timeAlphaB); ## if this is the courant number, there is instability introduced
@@ -73,7 +81,7 @@ for t in range(tsteps):
 
 
     #print(Hz_next)
-    #Hz_next[0] = Hz[1] + abc*(Hz_next[1] - Hz[0])
+    Hz_next[0] = Hz[1] + abc*(Hz_next[1] - Hz[0])
     Hz = Hz_next;
 
     ##################### update Ey field #######################
@@ -93,7 +101,7 @@ for t in range(tsteps):
             Ey_next[i] = Ey[i] + (dt / dx/timeAlpha) * (Hz[i] - Hz[index]);
 
     # #E -field abc
-    #Ey_next[-1] = Ey[-1] + abc * (Ey_next[-2] - Ey[-1])
+    Ey_next[-1] = Ey[-1] + abc * (Ey_next[-2] - Ey[-1])
 
     #point source pulse
     Ey_next[source_loc] += np.exp(-(t - 20) * (t - 20) / (60*timeAlpha));
@@ -109,10 +117,11 @@ for t in range(tsteps):
     Ey = Ey_next; #update Ey to next timestep
 
 
-
+    plt.figure()
     plt.plot(x,Hz)
     plt.plot(x,Ey)
     plt.ylim([-1, 1])
+    plt.savefig(directory+'Fields_'+str(t)+'.jpg');
     plt.pause(0.000001)
     plt.clf()
 

@@ -14,38 +14,67 @@ Hz = np.zeros((Nx, Ny));
 dx = dy = 1;
 
 #time steps
-tsteps = 200;
+tsteps = 100;
 dt = 1
 c = 1;
 ## courant constant
 cc = c*dt/min(dx, dy);
-imp0 = 377;
 plt.ion()
 fieldAmplitudes = list();
-plt.figure;
+plt.figure(figsize=(10,10));
+cc = 0.5;
 for t in range(tsteps):
     print('t= '+str(t))
     #update Hz, Ex, Ey
     #remember the yee grid and integer indexing
 
-    Hz[100, 100] += np.exp(-(t-30)*(t-30)/50)
-    #update E field components
-    for j in range(1,Nx):
-        for k in range(1,Ny):
-            Ex[j, k] = Ex[j, k] - (cc)*(Hz[j, k] - Hz[j, k - 1]) ;
-            Ey[j, k] = Ey[j, k] + (cc)*(Hz[j ,k] - Hz[j - 1, k]) ;
-
-    for j in range(Nx - 1):
-        for k in range(Ny - 1):
+    # update H field components
+    deriv_y = np.zeros((Nx, Ny));
+    deriv_x = np.zeros((Nx, Ny));
+    for j in range(Nx):
+        for k in range(Ny):
+            indx = j + 1; indy = k + 1;
+            if (indx > Nx - 1):
+                indx = 0;
+            if (indy > Ny - 1):
+                indy = 0;
             # TEz mode...only transverse x and y E field
-            Hz[j, k] = Hz[j, k] + (cc) * (Ey[j + 1, k] - Ey[j, k] - \
-                                          (Ex[j, k + 1] - Ex[j, k]));
+            deriv_y[k, j] = (Ex[indy, j] - Ex[k, j]);
+            deriv_x[k, j] = (Ey[k, indx] - Ey[k, j]);
+
+    Hz -= (deriv_x - deriv_y);
+    Hz[100, 100] -= np.sin(2*np.pi*t/30)*(dt);
+
+
+    #update E field components
+    Curl_x = np.zeros((Nx, Ny));
+    Curl_y = np.zeros((Nx, Ny));
+    for j in range(Nx): #y axis
+        for k in range(Ny): #x axis;
+            indx = j - 1; indy = k - 1;
+            if(indx < 0):
+                indx = Nx - 1;
+            if(indy < 0):
+                indy = Ny - 1;
+            deriv_y = -(Hz[indy, j] - Hz[k, j]);
+            deriv_x = -(Hz[k, indx] - Hz[k, j]);
+            Curl_x[k, j]= (cc) * (deriv_x); #curl Hz, dy(Hz)
+            Curl_y[k, j] = (cc) * (deriv_y) ; #cul Hz dx(Hz)
+    Ex += Curl_y;
+    Ey -= Curl_x;
+
+
 
     #insert point source
-    plt.imshow(Ey)
-    plt.pause(0.05)
-    plt.clf()
-
+    if(t%10 == 0):
+        plt.subplot(121)
+        imgplot = plt.imshow(Ey)
+        imgplot.set_cmap('jet')
+        plt.subplot(122)
+        imgplot = plt.imshow(Hz)
+        imgplot.set_cmap('jet')
+        plt.pause(0.001)
+        plt.clf()
 plt.imshow(Hz)
 plt.figure()
 plt.plot(Hz[:,50])
